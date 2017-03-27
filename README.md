@@ -148,5 +148,5 @@ Do not forget to clean up after the example.  Running `terraform destroy` will r
 ## Troubleshooting
 These examples use new features of many of the tools. At the time of writing, the following versions were used:
 
-Terraform v0.9.0
-Consul v0.8.5 
+- Terraform v0.9.0
+- Consul v0.8.5 
