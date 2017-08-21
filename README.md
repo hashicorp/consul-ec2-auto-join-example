@@ -35,7 +35,7 @@ The method we are using in this example is the EC2 role metadata.  By assigning 
 ```
 
 
-To start and bootstrap the cluster modify the file terraform.tfvars to add your AWS credentials and default region and then run `terraform plan`, `terraform apply` to create the cluster.
+To start and bootstrap the cluster modify the file terraform.tfvars to add your AWS credentials and default region and then run `terraform init`, `terraform plan`, `terraform apply` to create the cluster.
 
 ```
 aws_region = "eu-west-1"
@@ -148,5 +148,5 @@ Do not forget to clean up after the example.  Running `terraform destroy` will r
 ## Troubleshooting
 These examples use new features of many of the tools. At the time of writing, the following versions were used:
 
-- Terraform v0.9.0
-- Consul v0.7.5 
+- Terraform v0.9.8
+- Consul v0.7.5
