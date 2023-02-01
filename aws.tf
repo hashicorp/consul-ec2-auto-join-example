@@ -1,3 +1,6 @@
+# Copyright (c) HashiCorp, Inc.
+# SPDX-License-Identifier: MPL-2.0
+
 # Get the list of official Canonical Ubunt 14.04 AMIs
 data "aws_ami" "ubuntu-1404" {
   most_recent = true

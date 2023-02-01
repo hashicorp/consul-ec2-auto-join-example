@@ -1,3 +1,6 @@
+# Copyright (c) HashiCorp, Inc.
+# SPDX-License-Identifier: MPL-2.0
+
 # Create the user-data for the Consul server
 data "template_file" "server" {
   count    = "${var.servers}"
