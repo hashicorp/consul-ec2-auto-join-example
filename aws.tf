@@ -105,5 +105,5 @@ resource "aws_iam_policy_attachment" "consul-join" {
 # Create the instance profile
 resource "aws_iam_instance_profile" "consul-join" {
   name  = "${var.namespace}-consul-join"
-  roles = ["${aws_iam_role.consul-join.name}"]
+  role = "${aws_iam_role.consul-join.name}"
 }
