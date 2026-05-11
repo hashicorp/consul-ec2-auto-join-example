@@ -1,3 +1,5 @@
+# Copyright IBM Corp. 2017, 2026
+
 # Create the user-data for the Consul server
 data "template_file" "server" {
   count    = "${var.servers}"
